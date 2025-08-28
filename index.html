@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="he"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>מחשבונים מתקדמים</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head><body><div class="wave-background"></div><div class="container"><header class="header"><h1>מחשבונים מתקדמים</h1></header><div class="content"><div class="section"><h3>בדיקת ת.ז</h3><div class="input-group"><input type="text" id="idInput" placeholder="הכנס ת.ז (9 ספרות)"><button onclick="checkID()">בדוק</button></div><div id="idResult" class="result">התוצאה תוצג כאן</div></div>
+   <div class="section">
+            <h3>בדיקת מספר ראשוני</h3>
+            <div class="input-group">
+                <input type="text" inputmode="numeric" id="primeInput" placeholder="הכנס מספר">
+                <button onclick="checkPrime()">בדוק</button>
+            </div>
+            <div id="primeResult" class="result">התוצאה תוצג כאן</div>
+        </div>
+
+        <div class="section">
+            <h3>עיבוד מחרוזת</h3>
+            <div class="input-group">
+                <input type="text" id="recursiveInput" placeholder="הכנס מחרוזת">
+                <button onclick="processStringRecursive()">עבד</button>
+            </div>
+            <div id="recursiveResult" class="result">התוצאה תוצג כאן</div>
+        </div>
+
+        <div class="section">
+            <h3>השוואת מחרוזות</h3>
+            <div class="input-group">
+                <input type="text" id="string1" placeholder="מחרוזת 1">
+                <input type="text" id="string2" placeholder="מחרוזת 2">
+                <button onclick="compareStrings()">השווה</button>
+            </div>
+            <div id="stringResult" class="result">התוצאה תוצג כאן</div>
+        </div>
+
+        <div class="section">
+            <h3>מיון מחרוזת</h3>
+            <div class="input-group">
+                <input type="text" id="sortInput" placeholder="הכנס מחרוזת">
+                <button onclick="bubbleSort()">מיין</button>
+            </div>
+            <div id="sortResult" class="result">התוצאה תוצג כאן</div>
+        </div>
+
+        <div class="section">
+            <h3>מחשבון</h3>
+            <div id="calcDisplay" class="calc-display">0</div>
+            <div class="calc-buttons">
+                <button class="calc-button" onclick="clearCalc()">C</button>
+                <button class="calc-button" onclick="calcInput('0')">0</button>
+                <button class="calc-button" onclick="calcInput('=')">=</button>
+                <button class="calc-button operator" onclick="calcInput('/')">/</button>
+                <button class="calc-button" onclick="calcInput('7')">7</button>
+                <button class="calc-button" onclick="calcInput('8')">8</button>
+                <button class="calc-button" onclick="calcInput('9')">9</button>
+                <button class="calc-button operator" onclick="calcInput('*')">*</button>
+                <button class="calc-button" onclick="calcInput('4')">4</button>
+                <button class="calc-button" onclick="calcInput('5')">5</button>
+                <button class="calc-button" onclick="calcInput('6')">6</button>
+                <button class="calc-button operator" onclick="calcInput('-')">-</button>
+                <button class="calc-button" onclick="calcInput('1')">1</button>
+                <button class="calc-button" onclick="calcInput('2')">2</button>
+                <button class="calc-button" onclick="calcInput('3')">3</button>
+                <button class="calc-button operator" onclick="calcInput('+')">+</button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>חישובים בסיסיים</h3>
+            <div class="input-group">
+                <input type="number" id="mathX" placeholder="X">
+                <input type="number" id="mathY" placeholder="Y">
+                <button onclick="performMathOperations()">חשב</button>
+            </div>
+            <div class="math-results">
+                <div id="addResult" class="math-result">X + Y = </div>
+                <div id="subResult" class="math-result">X - Y = </div>
+                <div id="mulResult" class="math-result">X * Y = </div>
+                <div id="divResult" class="math-result">X / Y = </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
